@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+.NewDogForm {
+  display: flex;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 200;
+}
+
+.NewDogForm-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 60%;
+  height: 90vh;
+  padding: 1em;
+  box-shadow: 8px 5px 10px 2px grey;
+  border: lightgrey solid thin;
+  border-radius: 2%;
+}
+
+.NewDogForm-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.NewDogForm-title {
+  display: flex;
+  justify-content: center;
+  color: teal;
+  font-weight: 100;
+}
+
+.NewDogForm-form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+input#name {
+  width: 100%;
+}
+
+input#breed {
+  width: 100%;
+}
+input#age {
+  width: 100%;
+}
+
+input#size {
+  width: 100%;
+}
+input#trait {
+  width: 100%;
+}
+
+input#activity {
+  width: 100%;
+}
+
+.NewDogForm-bio {
+  width: 100%;
+  height: 100px;
+}
+
+.NewDogForm-btn {
+  background-color: grey;
+  border-radius: 2%;
+  box-shadow: 7px 5px 10px 3px lightgrey;
+  border: none;
+  color: white;
+}

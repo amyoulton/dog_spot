@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+.DogProfile {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+}
+
+.DogProfile-main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  width: 50%;
+  padding: 1em;
+  box-shadow: 8px 5px 10px 2px grey;
+  border: lightgrey solid thin;
+  border-radius: 2%;
+}
+
+.DogProfile-header {
+  width: 100%;
+  text-align: center;
+}
+
+.DogProfile-name {
+  font-size: 35px;
+  font-weight: 400;
+  color: teal;
+  font-weight: 100;
+}
+
+.DogProfile-imgbox {
+  width: 70%;
+  margin: 1em;
+  border-radius: 5%;
+  box-shadow: 8px 5px 10px 2px lightgrey;
+}
+
+.DogProfile-img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.DogProfile-bio {
+  width: 90%;
+}
+
+.DogProfile-btnsgroup {
+  display: flex;
+}
+
+.DogProfile-btns {
+  margin: 10px;
+  background-color: grey;
+  border-radius: 2%;
+  box-shadow: 7px 5px 10px 3px lightgrey;
+  border: none;
+  color: white;
+}
+
+.DogProfile-reviews {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  width: 40%;
+  height: 100vh;
+  padding: 1em;
+  box-shadow: 8px 5px 10px 2px grey;
+  border: lightgrey solid thin;
+  border-radius: 2%;
+  overflow: auto;
+}
+
+.DogProfile-reviews-header {
+  width: 100%;
+  text-align: center;
+}
+
+.DogProfile-reviews-title {
+  font-size: 35px;
+  font-weight: 400;
+  color: teal;
+  font-weight: 100;
+}
+
+.DogProfile-reviewlist {
+  padding: 0.5em;
+}
+
+.DogProfile-reviewrating {
+  width: 100%;
+  color: teal;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 12px;
+  border-bottom: lightgray thin solid;
+}
+
+.DogProfile-reviewlink {
+  text-decoration: none;
+  color: teal;
+}
+
+.DogProfile-reviewlink:hover {
+  text-decoration: none;
+  color: grey;
+}

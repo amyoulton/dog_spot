@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+.DogIndex-main {
+  margin: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 200;
+}
+
+.DogIndex-card {
+  width: 30%;
+  margin: 1em;
+  padding: 1em;
+  box-shadow: 8px 5px 11px 2px grey;
+  border: lightgrey solid thin;
+  border-radius: 2%;
+  text-align: center;
+}
+
+.DogIndex-header {
+  width: 80%;
+  text-align: center;
+  font-weight: 200;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+.DogIndex-maintitle {
+  font-size: 50px;
+  font-weight: 100;
+  color: teal;
+}
+
+.DogIndex-title {
+  font-size: 30px;
+  font-weight: 200;
+  color: black;
+}
+
+.DogIndex-name {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.DogIndex-img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.DogIndex-img-box {
+  text-align: center;
+  border-radius: 5%;
+  box-shadow: 5px 5px 11px 2px lightgrey;
+  margin: 1em;
+}
+
+.DogIndex-img-box:hover {
+  cursor: pointer;
+}
+
+.DogIndex-traits {
+  display: inline;
+  margin: 2px;
+}
+
+.DogIndex-link {
+  color: black;
+  text-decoration: none;
+}
+
+.DogIndex-link:hover {
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+}

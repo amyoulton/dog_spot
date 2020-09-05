@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+.UserProfile {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1em;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.UserProfile-box {
+  display: flex;
+  margin-top: 1em;
+  width: 48%;
+  height: 80vh;
+}
+
+.UserProfile-imgbox {
+  width: 100%;
+  margin: 1em;
+  border-radius: 5%;
+  box-shadow: 8px 5px 10px 2px lightgrey;
+  height: 80vh;
+}
+
+.UserProfile-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+}
+
+.UserProfile-infobox {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+  padding: 2em;
+  width: 40%;
+  border-radius: 2%;
+  box-shadow: 8px 5px 10px 2px lightgrey;
+  border: lightgray solid thin;
+  height: 80vh;
+}
+
+.UserProfile-infoheader {
+  width: 98%;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.UserProfile-title {
+  color: teal;
+  font-weight: 100;
+}
+
+.UserProfile-btns {
+  background-color: grey;
+  border-radius: 2%;
+  box-shadow: 7px 5px 10px 3px lightgrey;
+  border: none;
+  color: white;
+  margin-top: 1em;
+}

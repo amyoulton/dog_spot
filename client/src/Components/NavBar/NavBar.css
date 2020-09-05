@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+.Navbar-main {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  box-shadow: 8px 5px 10px 2px lightgrey;
+}
+
+.NavBar-menu {
+  height: 4em;
+  background-color: teal;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.NavBar-links {
+  padding: 1.3em;
+}
+
+.NavBar-item {
+  padding: 0.8em;
+  text-decoration: none;
+  color: white;
+}

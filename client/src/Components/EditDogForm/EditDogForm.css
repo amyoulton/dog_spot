@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+.EditDogForm {
+  display: flex;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 200;
+}
+
+.EditDogForm-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 4em;
+  width: 60%;
+  padding: 1em;
+  box-shadow: 8px 5px 10px 2px grey;
+  border: lightgrey solid thin;
+  border-radius: 2%;
+}
+
+.EditDogForm-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.EditDogForm-title {
+  display: flex;
+  justify-content: center;
+  color: teal;
+  font-weight: 100;
+}
+
+.EditDogForm-form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+input#first_name {
+  width: 100%;
+}
+
+input#last_name {
+  width: 100%;
+}
+
+.EditDogForm-bio {
+  width: 100%;
+  height: 150px;
+}
+
+.EditDogForm-btn {
+  background-color: grey;
+  border-radius: 2%;
+  box-shadow: 7px 5px 10px 3px lightgrey;
+  border: none;
+  color: white;
+}

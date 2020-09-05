@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+.SignInPage {
+  display: flex;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.SignInPage-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10em;
+  width: 60%;
+  height: 45vh;
+  padding: 1em;
+  box-shadow: 8px 5px 10px 2px grey;
+  border: lightgrey solid thin;
+  border-radius: 2%;
+}
+
+.SignInPage-header {
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+  width: 100%;
+}
+
+.SignInPage-title {
+  display: flex;
+  justify-content: center;
+  color: teal;
+  font-weight: 100;
+}
+
+.SignInPage-form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+input#email {
+  width: 100%;
+  background-color: none;
+}
+
+input#password {
+  width: 100%;
+}
+
+.SignInPage-btn {
+  background-color: grey;
+  border-radius: 2%;
+  box-shadow: 7px 5px 10px 3px lightgrey;
+  border: none;
+  color: white;
+}
